@@ -25,6 +25,7 @@ group :development do
   gem 'spring'
   gem "letter_opener", "~> 1.7"
   gem 'bullet', '~> 6.1', '>= 6.1.5'
+  gem 'pry-rails'
 end
 
 group :test do
@@ -40,3 +41,5 @@ gem "kaminari", "~> 1.2"
 gem "devise", "~> 4.8"
 gem "pundit", "~> 2.1"
 gem 'rolify', '~> 6.0'
+
+gem "groupdate", "~> 5.2"
