@@ -9,7 +9,7 @@ class ArticlePolicy < ApplicationPolicy
     true
   end
 
-  def create
+  def create?
     user&.id
   end
 
