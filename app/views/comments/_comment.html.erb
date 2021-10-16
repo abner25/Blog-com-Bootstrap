@@ -6,6 +6,6 @@
     <%= link_to 'Destroy', article_comment_path(@article, comment),
     method: :delete,
     data: {confirm: 'Are you sure?'},
-    class:'btn btn-danger' if policy(comment).destroy? %>
+    class:'btn btn-danger' if policy( comment).destroy? %>
   </div>
 </div>
